@@ -1,0 +1,496 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		44A11E8E46E11025628D6FBA /* Pods_TresureHuntNU.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BAB414064519E11B6AFC8F8 /* Pods_TresureHuntNU.framework */; };
+		5D631A24201C55B000BBF9BC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D631A23201C55B000BBF9BC /* AppDelegate.swift */; };
+		5D631A2E201C55B000BBF9BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D631A2C201C55B000BBF9BC /* LaunchScreen.storyboard */; };
+		5D631A38201C561300BBF9BC /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D631A37201C561300BBF9BC /* Extensions.swift */; };
+		5D631A41201C564200BBF9BC /* TeamIDViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D631A3D201C564100BBF9BC /* TeamIDViewController.swift */; };
+		5D631A42201C564200BBF9BC /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D631A3E201C564200BBF9BC /* MapViewController.swift */; };
+		5D631A43201C564200BBF9BC /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D631A3F201C564200BBF9BC /* DetailsViewController.swift */; };
+		5D631A44201C564200BBF9BC /* QRViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D631A40201C564200BBF9BC /* QRViewController.swift */; };
+		5D631A47201C564D00BBF9BC /* PinAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D631A45201C564D00BBF9BC /* PinAnnotation.swift */; };
+		5D631A48201C564D00BBF9BC /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D631A46201C564D00BBF9BC /* Data.swift */; };
+		5D631A50201C567D00BBF9BC /* FifthQuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D631A49201C567C00BBF9BC /* FifthQuestionView.swift */; };
+		5D631A51201C567D00BBF9BC /* FourthQuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D631A4A201C567C00BBF9BC /* FourthQuestionView.swift */; };
+		5D631A52201C567D00BBF9BC /* TeamIdView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D631A4B201C567C00BBF9BC /* TeamIdView.swift */; };
+		5D631A53201C567D00BBF9BC /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D631A4C201C567C00BBF9BC /* MapView.swift */; };
+		5D631A54201C567D00BBF9BC /* SecondQuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D631A4D201C567D00BBF9BC /* SecondQuestionView.swift */; };
+		5D631A55201C567D00BBF9BC /* FirstQuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D631A4E201C567D00BBF9BC /* FirstQuestionView.swift */; };
+		5D631A56201C567D00BBF9BC /* ThirdQuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D631A4F201C567D00BBF9BC /* ThirdQuestionView.swift */; };
+		5D631A58201C57B500BBF9BC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5D631A57201C57B500BBF9BC /* GoogleService-Info.plist */; };
+		5D631A5A201C6FCE00BBF9BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D631A59201C6FCE00BBF9BC /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0893256AAB34C17A592293F3 /* Pods-TresureHuntNU.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TresureHuntNU.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TresureHuntNU/Pods-TresureHuntNU.debug.xcconfig"; sourceTree = "<group>"; };
+		5D631A20201C55B000BBF9BC /* TresureHuntNU.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TresureHuntNU.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D631A23201C55B000BBF9BC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5D631A2D201C55B000BBF9BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5D631A2F201C55B000BBF9BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D631A37201C561300BBF9BC /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		5D631A3D201C564100BBF9BC /* TeamIDViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeamIDViewController.swift; sourceTree = "<group>"; };
+		5D631A3E201C564200BBF9BC /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		5D631A3F201C564200BBF9BC /* DetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		5D631A40201C564200BBF9BC /* QRViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRViewController.swift; sourceTree = "<group>"; };
+		5D631A45201C564D00BBF9BC /* PinAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PinAnnotation.swift; sourceTree = "<group>"; };
+		5D631A46201C564D00BBF9BC /* Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		5D631A49201C567C00BBF9BC /* FifthQuestionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FifthQuestionView.swift; sourceTree = "<group>"; };
+		5D631A4A201C567C00BBF9BC /* FourthQuestionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FourthQuestionView.swift; sourceTree = "<group>"; };
+		5D631A4B201C567C00BBF9BC /* TeamIdView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeamIdView.swift; sourceTree = "<group>"; };
+		5D631A4C201C567C00BBF9BC /* MapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		5D631A4D201C567D00BBF9BC /* SecondQuestionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondQuestionView.swift; sourceTree = "<group>"; };
+		5D631A4E201C567D00BBF9BC /* FirstQuestionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstQuestionView.swift; sourceTree = "<group>"; };
+		5D631A4F201C567D00BBF9BC /* ThirdQuestionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdQuestionView.swift; sourceTree = "<group>"; };
+		5D631A57201C57B500BBF9BC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		5D631A59201C6FCE00BBF9BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7BAB414064519E11B6AFC8F8 /* Pods_TresureHuntNU.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TresureHuntNU.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F57F5432DCE55E1784CC820D /* Pods-TresureHuntNU.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TresureHuntNU.release.xcconfig"; path = "Pods/Target Support Files/Pods-TresureHuntNU/Pods-TresureHuntNU.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5D631A1D201C55B000BBF9BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44A11E8E46E11025628D6FBA /* Pods_TresureHuntNU.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5D631A17201C55B000BBF9BC = {
+			isa = PBXGroup;
+			children = (
+				5D631A22201C55B000BBF9BC /* TresureHuntNU */,
+				5D631A21201C55B000BBF9BC /* Products */,
+				68D90097F58A33D9C4E295F7 /* Pods */,
+				E1A99C632A81C7187A051374 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5D631A21201C55B000BBF9BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5D631A20201C55B000BBF9BC /* TresureHuntNU.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5D631A22201C55B000BBF9BC /* TresureHuntNU */ = {
+			isa = PBXGroup;
+			children = (
+				5D631A3C201C562400BBF9BC /* Models */,
+				5D631A3B201C562100BBF9BC /* Views */,
+				5D631A3A201C561D00BBF9BC /* Controllers */,
+				5D631A39201C561B00BBF9BC /* Supporting Files */,
+				5D631A37201C561300BBF9BC /* Extensions.swift */,
+				5D631A23201C55B000BBF9BC /* AppDelegate.swift */,
+				5D631A2F201C55B000BBF9BC /* Info.plist */,
+				5D631A57201C57B500BBF9BC /* GoogleService-Info.plist */,
+				5D631A59201C6FCE00BBF9BC /* Assets.xcassets */,
+			);
+			path = TresureHuntNU;
+			sourceTree = "<group>";
+		};
+		5D631A39201C561B00BBF9BC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5D631A2C201C55B000BBF9BC /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5D631A3A201C561D00BBF9BC /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				5D631A3F201C564200BBF9BC /* DetailsViewController.swift */,
+				5D631A3E201C564200BBF9BC /* MapViewController.swift */,
+				5D631A40201C564200BBF9BC /* QRViewController.swift */,
+				5D631A3D201C564100BBF9BC /* TeamIDViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		5D631A3B201C562100BBF9BC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5D631A49201C567C00BBF9BC /* FifthQuestionView.swift */,
+				5D631A4A201C567C00BBF9BC /* FourthQuestionView.swift */,
+				5D631A4F201C567D00BBF9BC /* ThirdQuestionView.swift */,
+				5D631A4D201C567D00BBF9BC /* SecondQuestionView.swift */,
+				5D631A4E201C567D00BBF9BC /* FirstQuestionView.swift */,
+				5D631A4C201C567C00BBF9BC /* MapView.swift */,
+				5D631A4B201C567C00BBF9BC /* TeamIdView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5D631A3C201C562400BBF9BC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5D631A46201C564D00BBF9BC /* Data.swift */,
+				5D631A45201C564D00BBF9BC /* PinAnnotation.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		68D90097F58A33D9C4E295F7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0893256AAB34C17A592293F3 /* Pods-TresureHuntNU.debug.xcconfig */,
+				F57F5432DCE55E1784CC820D /* Pods-TresureHuntNU.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E1A99C632A81C7187A051374 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7BAB414064519E11B6AFC8F8 /* Pods_TresureHuntNU.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5D631A1F201C55B000BBF9BC /* TresureHuntNU */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D631A32201C55B000BBF9BC /* Build configuration list for PBXNativeTarget "TresureHuntNU" */;
+			buildPhases = (
+				B50A752FA68111FF36A8B184 /* [CP] Check Pods Manifest.lock */,
+				5D631A1C201C55B000BBF9BC /* Sources */,
+				5D631A1D201C55B000BBF9BC /* Frameworks */,
+				5D631A1E201C55B000BBF9BC /* Resources */,
+				26AA83585F1B0788DD25026A /* [CP] Embed Pods Frameworks */,
+				9AADEAA448F14F6DD352F40F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TresureHuntNU;
+			productName = TresureHuntNU;
+			productReference = 5D631A20201C55B000BBF9BC /* TresureHuntNU.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5D631A18201C55B000BBF9BC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Алпамыс";
+				TargetAttributes = {
+					5D631A1F201C55B000BBF9BC = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 5D631A1B201C55B000BBF9BC /* Build configuration list for PBXProject "TresureHuntNU" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5D631A17201C55B000BBF9BC;
+			productRefGroup = 5D631A21201C55B000BBF9BC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5D631A1F201C55B000BBF9BC /* TresureHuntNU */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5D631A1E201C55B000BBF9BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D631A2E201C55B000BBF9BC /* LaunchScreen.storyboard in Resources */,
+				5D631A5A201C6FCE00BBF9BC /* Assets.xcassets in Resources */,
+				5D631A58201C57B500BBF9BC /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		26AA83585F1B0788DD25026A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-TresureHuntNU/Pods-TresureHuntNU-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/EasyPeasy/EasyPeasy.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/EasyPeasy.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TresureHuntNU/Pods-TresureHuntNU-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9AADEAA448F14F6DD352F40F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TresureHuntNU/Pods-TresureHuntNU-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B50A752FA68111FF36A8B184 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TresureHuntNU-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5D631A1C201C55B000BBF9BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D631A52201C567D00BBF9BC /* TeamIdView.swift in Sources */,
+				5D631A53201C567D00BBF9BC /* MapView.swift in Sources */,
+				5D631A47201C564D00BBF9BC /* PinAnnotation.swift in Sources */,
+				5D631A55201C567D00BBF9BC /* FirstQuestionView.swift in Sources */,
+				5D631A41201C564200BBF9BC /* TeamIDViewController.swift in Sources */,
+				5D631A50201C567D00BBF9BC /* FifthQuestionView.swift in Sources */,
+				5D631A38201C561300BBF9BC /* Extensions.swift in Sources */,
+				5D631A54201C567D00BBF9BC /* SecondQuestionView.swift in Sources */,
+				5D631A44201C564200BBF9BC /* QRViewController.swift in Sources */,
+				5D631A42201C564200BBF9BC /* MapViewController.swift in Sources */,
+				5D631A51201C567D00BBF9BC /* FourthQuestionView.swift in Sources */,
+				5D631A24201C55B000BBF9BC /* AppDelegate.swift in Sources */,
+				5D631A56201C567D00BBF9BC /* ThirdQuestionView.swift in Sources */,
+				5D631A48201C564D00BBF9BC /* Data.swift in Sources */,
+				5D631A43201C564200BBF9BC /* DetailsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5D631A2C201C55B000BBF9BC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5D631A2D201C55B000BBF9BC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5D631A30201C55B000BBF9BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5D631A31201C55B000BBF9BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5D631A33201C55B000BBF9BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0893256AAB34C17A592293F3 /* Pods-TresureHuntNU.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TE5J9439YG;
+				INFOPLIST_FILE = TresureHuntNU/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AlpamysD.TreasureHunterNU;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5D631A34201C55B000BBF9BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F57F5432DCE55E1784CC820D /* Pods-TresureHuntNU.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TE5J9439YG;
+				INFOPLIST_FILE = TresureHuntNU/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AlpamysD.TreasureHunterNU;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5D631A1B201C55B000BBF9BC /* Build configuration list for PBXProject "TresureHuntNU" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D631A30201C55B000BBF9BC /* Debug */,
+				5D631A31201C55B000BBF9BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5D631A32201C55B000BBF9BC /* Build configuration list for PBXNativeTarget "TresureHuntNU" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D631A33201C55B000BBF9BC /* Debug */,
+				5D631A34201C55B000BBF9BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5D631A18201C55B000BBF9BC /* Project object */;
+}
