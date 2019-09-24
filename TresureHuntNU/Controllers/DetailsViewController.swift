@@ -44,14 +44,3 @@ extension DetailsViewController: AlertCreatable {
         self.present(alert, animated: true, completion: nil)
     }
 }
-
-
-
-//extension DetailsViewController: MapUpdatable {
-//    func updateMap() {
-//        <#code#>
-//    }
-//}
-//
-//extensio
-
